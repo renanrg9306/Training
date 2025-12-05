@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Semantic HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Renan Alfredo Rosales Gutierrez Portafolio.</h1>
+
+        <nav class="navbar">
+            <div class="logo">Logo</div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h1>This is a header because is an article tag</h1>
+        </article>
+
+        <aside>
+            <p>This is a side content</p>
+        </aside>
+
+        <article>
+           <p>This a practice because I will be a FULL STACK DEVELEPER BELIEVE IT OR NOT</p> 
+
+           <ul>
+                <li>This is an unorder list</li>
+                <li>There's not much I can do for you</li>
+           </ul>
+
+           <ol>
+                <li>Order list</li>
+                <li>This is a number here</li>
+           </ol>
+            
+        </article>
+
+        <dl>
+            <dt>Vertebrate</dt>
+            <dd>
+                <ul>
+                    <li>Dogs</li>
+                </ul>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Invertebrate</dt>
+            <dd>
+                <ol>
+                    <li>Snakes</li>
+                </ol>
+            </dd>
+        </dl>
+
+        <blockquote cite="https://www.britannica.com/biography/Ruben-Dario">
+            Rubén Darío (born January 18, 1867, Metapa, Nicaragua—died February 6, 1916, León)
+             was an influential Nicaraguan poet, journalist, and diplomat. As a leader of the Spanish American
+              literary movement known as Modernismo, which flourished at the end of the 19th century, he revivified
+               and modernized poetry in Spanish on both sides of the Atlantic through his experiments
+                with rhythm, metre, and imagery. Darío developed a highly original poetic style that founded a tradition.
+        </blockquote>
+
+        <figure>
+            <img 
+            src="https://media.geeksforgeeks.org/wp-content/uploads/geeks-25.png" alt="Greeks">
+            <figcaption>Greek Website Logo</figcaption>
+        </figure>
+
+        <p>
+            This is <strong>Negrita</strong>, let's emphasis text <em>Emphasis</em>. We will go ahead and create a link
+            <a href="https://www.facebook.com">Click here to go to Facebook</a>, and now let's write code <code> code </code>
+            <small>Small print</small>. let's go ahead and insert time tag <time datetime="2025-10-06">October 5th</time>
+        </p>
+
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email">
+
+                <label for="message">Message</label>
+                <input type="text" name="message">   
+
+                <button onclick="submitForm()">Submit</button>
+            </fieldset>
+        </form>
+
+        <div class="box"></div>
+        <div class="traditional"></div>
+        <div class="card">
+            <h2>Card Information</h2>
+            <p>Content card goes here</p>
+        </div>
+
+        <div class="card-container">
+            <div class="cards">Card 1 with short Content</div>
+            <div class="cards">Card 2 with longer content that makes this card taller than others in traditional layout</div>
+            <div class="cards">Card 3</div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Copyright</p>
+    </footer>
+   
+</body>
