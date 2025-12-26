@@ -1,0 +1,19 @@
+/* Most common types */
+/*@media screen { }*/    /* For screens */
+/*@media print { }*?     /* For printed documents */
+/*@media all { } */       /* For all devices */
+
+/* Less common */
+/*@media speech { } */    /* For speech synthesizers */
+
+body {font-size:14px;}
+
+/*Table*/
+@media (min-width: 768px){
+    body {font-size: 16px;}
+}
+
+@media (min-width: 1024px) {
+    body { font-size: 18px;}
+    
+}
